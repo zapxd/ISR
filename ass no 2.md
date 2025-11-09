@@ -161,6 +161,33 @@ It is often calculated using shared keywords, index terms, or vector similarity 
 
 ---
 
+
+
+# 📊 Analysis of Algorithm — Single Pass Clustering
+
+---
+
+### 🔹 Advantages
+- **Simple to implement** — the algorithm is straightforward and easy to code.  
+- **Less time requirement for searching** — since clustering groups similar data, searching within clusters becomes faster.
+
+---
+
+### 🔹 Disadvantages
+- **Order-dependent** — the output depends on the **sequence in which objects are processed**.  
+  Different input orders may lead to different clustering results.
+
+---
+
+### 🔹 Input
+The program accepts the following inputs:
+1. **Number of Tokens** — total unique words or features.  
+2. **Number of Documents** — total documents or data points.  
+3. **Threshold Value** — minimum similarity required to form or join a cluster.  
+4. **Document Token Matrix** — a matrix showing the occurrence of each token in each document.
+
+---
+
 ✅ **In short:**  
 - **Cluster:** Group of similar items.  
 - **Similarity:** How closely two items match.  
