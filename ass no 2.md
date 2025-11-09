@@ -108,3 +108,65 @@ Use a document-term matrix, calculate similarity between documents, choose a thr
 
 ✅ **Conclusion:**  
 Term-based single-pass clustering was successfully implemented. The concept of threshold, similarity, and cluster representatives helps in grouping related documents effectively in an IR system.
+
+---
+---
+
+# 📘 Basic Definitions — Clustering Algorithm
+
+### 🔹 Cluster
+A **cluster** is an ordered list or group of objects that have some **common characteristics** or similarities.
+
+---
+
+### 🔹 Distance Between Two Clusters
+The **distance** between two clusters measures how far apart they are.  
+It may involve comparing some or all elements of both clusters, depending on the chosen clustering method.
+
+---
+
+### 🔹 Similarity
+A **similarity measure**, written as `SIMILAR(d1, dj)`, represents how **similar or related** two documents or objects are.  
+Higher similarity means the documents are more alike.
+
+---
+
+### 🔹 Threshold
+The **threshold** is the **minimum similarity value** required for two objects to be placed in the **same cluster**.  
+If similarity < threshold → a **new cluster** is created.
+
+---
+
+### 🔹 Similarity Matrix
+A **similarity matrix** is a table showing the similarity values between all pairs of objects.  
+Each entry in the matrix is calculated using the function `SIMILAR(di, dj)`.
+
+|       | D1  | D2  | D3  |
+|-------|-----|-----|-----|
+| **D1** | 1.0 | 0.8 | 0.3 |
+| **D2** | 0.8 | 1.0 | 0.4 |
+| **D3** | 0.3 | 0.4 | 1.0 |
+
+---
+
+### 🔹 Cluster Representative (Seed)
+The **cluster representative** (also called a **seed**) is the main element that represents a cluster.  
+Every new object’s similarity is compared with this representative to decide if it should join the cluster.
+
+---
+
+### 🔹 Similarity Between Documents
+The **similarity value** shows how much two documents or objects are **close to each other** in terms of content.  
+It is often calculated using shared keywords, index terms, or vector similarity methods.
+
+---
+
+✅ **In short:**  
+- **Cluster:** Group of similar items.  
+- **Similarity:** How closely two items match.  
+- **Threshold:** Minimum similarity needed to join a cluster.  
+- **Cluster Representative:** The main document that defines the cluster.  
+- **Similarity Matrix:** Table showing how similar each pair of documents is.
+
+---
+---
