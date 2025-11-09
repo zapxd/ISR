@@ -1,4 +1,149 @@
 # 📚 Information Retrieval Lab - Viva Questions & Answers
+## Table of Contents
+
+---
+
+## 📖 Overview
+- [Introduction](#introduction)
+- [Document Summary](#document-summary)
+- [How to Use This Guide](#how-to-use-this-guide)
+
+---
+
+## 📌 [Assignment 1: Information Retrieval Basics](#assignment-1-information-retrieval-basics)
+
+### Frequently Asked Questions
+- [Q1. What is meant by Information Retrieval?](#q1-what-is-meant-by-information-retrieval)
+- [Q2. Draw the diagram of IR?](#q2-draw-the-diagram-of-ir)
+- [Q3. Difference between DR and IR](#q3-difference-between-dr-and-ir)
+- [Q4. Explain Conflation Algorithm](#q4-explain-conflation-algorithm)
+- [Q5. What is the necessity of feedback mechanism in IR?](#q5-what-is-the-necessity-of-feedback-mechanism-in-ir)
+- [Q6. What is document representative?](#q6-what-is-document-representative)
+- [Q7. List out some high frequency words and why we called them high frequency words?](#q7-list-out-some-high-frequency-words-and-why-we-called-them-high-frequency-words)
+- [Q8. If input string = "some text is here" then what will be the output of Conflation Algorithm?](#q8-if-input-string--some-text-is-here-then-what-will-be-the-output-of-conflation-algorithm)
+
+### Questions Related to Applications of IR
+- [Q1. If your search is based on word which will occur very rarely in the document then what will happen?](#q1-if-your-search-is-based-on-word-which-will-occur-very-rarely-in-the-document-then-what-will-happen)
+
+---
+
+## 📌 [Assignment 2: Clustering in Information Retrieval](#assignment-2-clustering-in-information-retrieval)
+
+### Frequently Asked Questions
+- [Q1. What do you mean by cluster? What is cluster Seed?](#q1-what-do-you-mean-by-cluster-what-is-cluster-seed)
+- [Q2. Why we need cluster in IR? What is document based and Term based Clustering?](#q2-why-we-need-cluster-in-ir-what-is-document-based-and-term-based-clustering)
+- [Q3. How can we define relevance between documents?](#q3-how-can-we-define-relevance-between-documents)
+- [Q4. How can we form the cluster of documents?](#q4-how-can-we-form-the-cluster-of-documents)
+- [Q5. How many methods are there to define cluster?](#q5-how-many-methods-are-there-to-define-cluster)
+- [Q6. Explain Single Pass Algorithm. What do you mean by overlapping and exclusive approach?](#q6-explain-single-pass-algorithm-what-do-you-mean-by-overlapping-and-exclusive-approach)
+- [Q7. What is meant by similarity matrix?](#q7-what-is-meant-by-similarity-matrix)
+- [Q8. What is the time complexity and space complexity for Single Pass?](#q8-what-is-the-time-complexity-and-space-complexity-for-single-pass)
+- [Q9. Which method is better for cluster definition?](#q9-which-method-is-better-for-cluster-definition)
+
+### Questions Related to Applications of Clustering
+- [Q1. Illustrate the situation when clustering will not be possible?](#q1-illustrate-the-situation-when-clustering-will-not-be-possible)
+- [Q2. Create the document based clustering for 5 documents.](#q2-create-the-document-based-clustering-for-5-documents)
+
+---
+
+## 📌 [Assignment 3: Inverted Index](#assignment-3-inverted-index)
+
+### Frequently Asked Questions
+- [Q1. What do you mean by inverted file?](#q1-what-do-you-mean-by-inverted-file)
+- [Q2. What is word oriented mechanism?](#q2-what-is-word-oriented-mechanism)
+- [Q3. What do you mean by dictionary?](#q3-what-do-you-mean-by-dictionary)
+- [Q4. What is the role of postings?](#q4-what-is-the-role-of-postings)
+- [Q5. What are different applications of inverted index?](#q5-what-are-different-applications-of-inverted-index)
+- [Q6. How inverted index is helpful in searching?](#q6-how-inverted-index-is-helpful-in-searching)
+- [Q7. What do you mean by merging similar terms from different documents?](#q7-what-do-you-mean-by-merging-similar-terms-from-different-documents)
+- [Q8. What is the time complexity and space complexity for inverted index?](#q8-what-is-the-time-complexity-and-space-complexity-for-inverted-index)
+- [Q9. What are applications of inverted file?](#q9-what-are-applications-of-inverted-file)
+
+### Questions Related to Applications
+- [Q1. Illustrate the situation when inverted file will not be effective as storage option?](#q1-illustrate-the-situation-when-inverted-file-will-not-be-effective-as-storage-option)
+
+---
+
+## 📌 [Assignment 4: Precision and Recall](#assignment-4-precision-and-recall)
+
+### Frequently Asked Questions
+- [Q1. What do you mean by Precision?](#q1-what-do-you-mean-by-precision)
+- [Q2. What do you mean by Recall?](#q2-what-do-you-mean-by-recall)
+- [Q3. Explain the need of performance evaluation of IR system](#q3-explain-the-need-of-performance-evaluation-of-ir-system)
+- [Q4. Explain how to evaluate performance of IR system.](#q4-explain-how-to-evaluate-performance-of-ir-system)
+
+---
+
+## 📌 [Assignment 5: F-Measure and E-Measure](#assignment-5-f-measure-and-e-measure)
+
+### Frequently Asked Questions
+- [Q1. What do you mean by F Measure?](#q1-what-do-you-mean-by-f-measure)
+- [Q2. What do you mean by E Measure?](#q2-what-do-you-mean-by-e-measure)
+- [Q3. What is the Significance of F and E measure in IR system?](#q3-what-is-the-significance-of-f-and-e-measure-in-ir-system)
+
+---
+
+## 📌 [Assignment 6: Image Processing & Histograms](#assignment-6-image-processing--histograms)
+
+### Frequently Asked Questions
+- [Q1. What do you mean by image histogram?](#q1-what-do-you-mean-by-image-histogram)
+- [Q2. What are different types of file format for images?](#q2-what-are-different-types-of-file-format-for-images)
+- [Q3. Explain the role of color model](#q3-explain-the-role-of-color-model)
+- [Q4. Compare different color models.](#q4-compare-different-color-models)
+- [Q5. Define image histogram?](#q5-define-image-histogram)
+- [Q6. List types of histogram](#q6-list-types-of-histogram)
+- [Q7. Explain use of image histogram](#q7-explain-use-of-image-histogram)
+- [Q8. How to extract R, G and B content from image](#q8-how-to-extract-r-g-and-b-content-from-image)
+
+### Questions Related to Applications
+- [Q1. Consider the image processing domain and explain various methods of extracting intensity of pixel](#q1-consider-the-image-processing-domain-and-explain-various-methods-of-extracting-intensity-of-pixel)
+
+---
+
+## 📌 [Assignment 7: Web Crawlers](#assignment-7-web-crawlers)
+
+### Frequently Asked Questions
+- [Q1. What is meant by crawler?](#q1-what-is-meant-by-crawler)
+- [Q2. Explain working of web crawler](#q2-explain-working-of-web-crawler)
+- [Q3. Give examples of Web Crawlers.](#q3-give-examples-of-web-crawlers)
+- [Q4. Specify role of crawler in searching](#q4-specify-role-of-crawler-in-searching)
+- [Q5. Explain Meta Crawler](#q5-explain-meta-crawler)
+
+### Questions Related to Applications
+- [Q1. Modify developed WebCrawler considering other parameters or keywords](#q1-modify-developed-webcrawler-considering-other-parameters-or-keywords)
+
+---
+
+## 📌 [Assignment 8: Weather API Integration](#assignment-8-weather-api-integration)
+
+### Frequently Asked Questions
+- [Q1. Explain the steps to implement this assignment?](#q1-explain-the-steps-to-implement-this-assignment)
+- [Q2. What is OpenWeatherMap service?](#q2-what-is-openweathermap-service)
+- [Q3. What is the use of JSON in this assignment?](#q3-what-is-the-use-of-json-in-this-assignment)
+
+### Questions Related to Applications
+- [Q1. How to use this python code to predict the weather for next few days?](#q1-how-to-use-this-python-code-to-predict-the-weather-for-next-few-days)
+
+---
+
+## 📌 [Assignment 9: Recommender Systems](#assignment-9-recommender-systems)
+
+### Frequently Asked Questions
+- [Q1. Define recommender system](#q1-define-recommender-system)
+- [Q2. List types of recommender system.](#q2-list-types-of-recommender-system)
+- [Q3. Explain how the Recommender systems reduce information overload by estimating Relevance?](#q3-explain-how-the-recommender-systems-reduce-information-overload-by-estimating-relevance)
+- [Q4. Explain Collaborative filtering](#q4-explain-collaborative-filtering)
+- [Q5. Explain Hybrid Recommender system](#q5-explain-hybrid-recommender-system)
+
+### Questions Related to Applications
+- [Q1. If you want to buy a product from Amazon.in website. Explain how recommender system is helpful to enhance your buying product experience](#q1-if-you-want-to-buy-a-product-from-amazonin-website-explain-how-recommender-system-is-helpful-to-enhance-your-buying-product-experience)
+
+---
+
+
+
+
+# 📚 Information Retrieval Lab - Viva Questions & Answers
 
 ---
 
